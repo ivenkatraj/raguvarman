@@ -1,0 +1,130 @@
+@media (max-width: 1120px) {
+    .slider_section .detail-box h2 {
+        font-size: 2rem;
+        letter-spacing: 0px;
+
+    }
+
+    .slider_section .detail-box h1 {
+        font-size: 4rem;
+    }
+
+    .slider_section .detail-box h2 span {
+        letter-spacing: 6px;
+    }
+
+    .slider_section .detail-box .heading_box::before {
+        width: 375px;
+    }
+}
+
+@media (max-width: 992px) {
+    .custom_nav-container {
+        flex-direction: row;
+    }
+
+    .navbar.navbar-expand-lg.custom_nav-container.pt-3 {
+        align-items: center;
+    }
+
+    .navbar-toggler {
+        margin-bottom: -8px;
+    }
+
+    .slider_section #carouselExampleControls {
+        margin-top: 0;
+    }
+
+    .slider_section .detail-box {
+        margin-top: 75px;
+
+        align-items: center;
+        text-align: center;
+    }
+
+    .slider_section .detail-box a {
+        margin-top: 85px;
+    }
+
+    .slider_section .detail-box .heading_box::before {
+        width: 100%;
+    }
+
+    .slider_section .detail-box .heading_box {
+        padding: 15px;
+    }
+
+    .slider_section .detail-box h1 {
+        font-size: 3rem;
+        letter-spacing: 8px;
+    }
+
+    .about_section .box .detail-box {
+        width: 100%;
+    }
+
+    .about_section .box .img-box {
+        width: 100%;
+    }
+
+    .expand_section .detail-box {
+        padding: 0 25px;
+    }
+
+    .expand_section .detail-box {
+        padding: 45px 20px;
+    }
+
+    .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
+        margin: 10px 0;
+        padding: 5px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .design_section .design_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .design_section .design_container .box.b-1 {
+        margin: 0;
+        margin-bottom: -35px;
+    }
+
+    .design_section .design_container .box.b-2 {
+        margin: 0;
+        margin-bottom: -35px;
+    }
+
+    .about_section .box .img-box img {
+        width: 75%;
+    }
+}
+
+@media (max-width: 576px) {
+    .about_section .box .img-box img {
+        width: 85%;
+    }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 420px) {
+    .slider_section .detail-box h1 {
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+    }
+
+    .about_section .box .img-box img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 360px) {}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
